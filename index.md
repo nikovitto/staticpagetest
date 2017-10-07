@@ -5,9 +5,9 @@ Txte de ma page
 
 <h1>{{ page.title }}</h1>
 <ul>
-{% for page in site.pages %}
+{% for page in site.posts %}
 <li>
-    <a href="{{ page.title }}">{{ page.title }}</a>
+    <a href="{{ post.title }}">{{ post.title }}</a>
 </li>
 {% endfor %}
 </ul>
