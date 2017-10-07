@@ -5,7 +5,7 @@ Txte de ma page
 
 <h1>{{ page.title }}</h1>
 <ul>
-{% for page in site.posts %}
+{% for post in site.posts %}
 <li>
     <a href="{{ post.title }}">{{ post.title }}</a>
 </li>
