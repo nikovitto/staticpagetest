@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+title: siteNiko
+description: "test page static"
+url: "https://nikovitto.github.io/staticpagetest/"
+baseurl: ""
